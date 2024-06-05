@@ -25,7 +25,7 @@ namespace Decathlon.Athletes
             {
                 throw new ArgumentNullException("Dorsal cannot be null");
             }
-            if (dorsal.Trim().Length < 1)
+            if (dorsal.Trim().Length == 1)
             {
                 throw new ArgumentException("Dorsal must be exactly 1 digits");
             }
