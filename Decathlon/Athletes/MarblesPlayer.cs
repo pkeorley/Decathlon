@@ -27,7 +27,7 @@ namespace Decathlon.Athletes
             }
             if (dorsal.Trim().Length < 1)
             {
-                throw new ArgumentException("Dorsal must be exactly 2 digits");
+                throw new ArgumentException("Dorsal must be exactly 1 digits");
             }
             if (!dorsal.All(char.IsDigit))
             {
