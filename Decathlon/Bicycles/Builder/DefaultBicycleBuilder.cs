@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Decathlon.Bicycles.Builder
 {
-    internal class DefaultBicycleBuilder : IBicycleBuilder
+    public class DefaultBicycleBuilder : IBicycleBuilder
     {
         public Bicycle GetBicycle(BicycleType type)
         {
